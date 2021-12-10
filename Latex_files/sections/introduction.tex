@@ -1,0 +1,26 @@
+\section{Introduction}
+\subsection{Background}
+	Telephone and Internet services are now considered essential in most aspects of human life. This leads to rapid and persistent growth in the telecom industries and makes customer loyalty one of the key aspects of surviving competitive market conditions. According to a study carried out by Bain \& Company \cite{bain}, the acquisition of new customers can cost the company 5 times more than what customer retaining will do. Moreover, it also states that increasing customer retention rates by 5\% can increase profits by 25\% at least.  
+	
+	
+	Churn rate is one of the important metrics for customer retention study that indicates if customers stop doing business with the corresponding company. It surely has negative effect on company's profit and need to be minimized so the company can continue to run. The reason for this churn decision are usually a combination of some factors such as poor service quality, better competitor exists, high prices, and so on.
+	
+	The valuable basis to analyze this churn metric is none other than the data of customer itself. In this work, the data of certain telecom company will be studied to understand spesific customer who is likely to churn and the reasons behind that decision. Thus, the company can learn from it and come with reactive plans in the future. The dataset has also been pre-modified so it won't harm any customer's privacy.
+
+\subsection{Data Source}
+The customer base dataset used in this work is made available by IBM and downloaded from Kaggle \cite{kaggle}. It is related to an anonymous telecom company and contains 7043 customers data with 21 attributes where each row represents a customer and each column contains customer’s attributes. Overall, the dataset provides information about :
+\begin{itemize}
+	\item The target variable is Churn, indicates customers who left within the last month.
+	\item Services that each customer signed up for, consist of phone service, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies.
+	\item The information about customer account consists of tenure, contract, payment method, paperless billing, monthly charges, and total charges.
+	\item There are also gender, age range, partners, and dependents to give information about customer demographic.
+\end{itemize}
+
+The dataset will be analyzed using Google Collab (Python environment) \cite{indra}. This work used a few of libraries such as  pandas, NumPy, Matplotlib, seaborn, and plotnine.
+
+\subsection{Business Objectives}
+The analysis is carried out to answer this problem :
+\begin{enumerate}
+	\item Who are the customers more likely to churn and what are the probable reasons behind that decision?
+	\item What actions can be taken to prevent them from leaving?
+\end{enumerate}

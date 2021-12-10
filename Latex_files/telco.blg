@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: telco.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: unsrtnat.bst
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Database file #1: bibliography.bib
+Warning--empty year in bain
+Warning--empty year in kaggle
+Warning--empty year in indra
+You've used 3 entries,
+            2481 wiz_defined-function locations,
+            564 strings with 4806 characters,
+and the built_in function-call counts, 820 in all, are:
+= -- 69
+> -- 21
+< -- 3
++ -- 12
+- -- 6
+* -- 29
+:= -- 131
+add.period$ -- 12
+call.type$ -- 3
+change.case$ -- 6
+chr.to.int$ -- 3
+cite$ -- 6
+duplicate$ -- 42
+empty$ -- 91
+format.name$ -- 9
+if$ -- 175
+int.to.chr$ -- 1
+int.to.str$ -- 4
+missing$ -- 0
+newline$ -- 26
+num.names$ -- 9
+pop$ -- 45
+preamble$ -- 1
+purify$ -- 3
+quote$ -- 0
+skip$ -- 25
+stack$ -- 0
+substring$ -- 6
+swap$ -- 6
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 21
+warning$ -- 3
+while$ -- 6
+width$ -- 0
+write$ -- 46
+(There were 3 warnings)

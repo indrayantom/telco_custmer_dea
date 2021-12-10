@@ -1,0 +1,27 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Reichheld()]{bain}
+Ferd Reichheld.
+\newblock Prescription of cutting costs.
+\newblock \url{http://www2.bain.com/Images/BB_Prescription_cutting_costs.pdf}.
+\newblock (Accessed: 01-Dec-2021).
+
+\bibitem[IBM()]{kaggle}
+IBM.
+\newblock Telco customer churn.
+\newblock \url{https://www.kaggle.com/blastchar/telco-customer-churn}.
+\newblock (Accessed: 01-Dec-2021).
+
+\bibitem[Yanto()]{indra}
+Indra Yanto.
+\newblock Telco customer churn data exploratory analysis.
+\newblock
+  \url{https://colab.research.google.com/drive/1iLpyBlI6tkHTbQYsEeiLglVIdbUq2onV?usp=sharing}.
+\newblock (Accessed: 01-Dec-2021).
+
+\end{thebibliography}

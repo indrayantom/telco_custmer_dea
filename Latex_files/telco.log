@@ -1,0 +1,995 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.15)  5 DEC 2021 23:19
+entering extended mode
+**./telco.tex
+(telco.tex
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01>
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count190
+\Gm@cntv=\count191
+\c@Gm@tempcnt=\count192
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count193
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen147
+\lightrulewidth=\dimen148
+\cmidrulewidth=\dimen149
+\belowrulesep=\dimen150
+\belowbottomsep=\dimen151
+\aboverulesep=\dimen152
+\abovetopsep=\dimen153
+\cmidrulesep=\dimen154
+\cmidrulekern=\dimen155
+\defaultaddspace=\dimen156
+\@cmidla=\count194
+\@cmidlb=\count195
+\@aboverulesep=\dimen157
+\@belowrulesep=\dimen158
+\@thisruleclass=\count196
+\@lastruleclass=\count197
+\@thisrulewidth=\dimen159
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)))
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/stackengine\stackengine
+.sty
+Package: stackengine 2021/07/22 v4.11\ Stacking text and objects in convenient 
+ways
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/listofitems\listofitems
+.sty
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/listofitems\listofite
+ms.tex
+\loi_cnt_foreach_nest=\count198
+\loi_nestcnt=\count199
+)
+Package: listofitems 2019/08/21 v1.63 Grab items in lists using user-specified 
+sep char (CT)
+) (C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count266
+\calc@Bcount=\count267
+\calc@Adimen=\dimen160
+\calc@Bdimen=\dimen161
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count268
+\calc@Cskip=\skip51
+)
+\c@@stackindex=\count269
+\@boxshift=\skip52
+\stack@tmplength=\skip53
+\temp@stkl=\skip54
+\@stackedboxwidth=\skip55
+\@addedbox=\box50
+\@anchorbox=\box51
+\@insetbox=\box52
+\se@backgroundbox=\box53
+\stackedbox=\box54
+\@centerbox=\box55
+\c@ROWcellindex@=\count270
+) (C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen164
+\captionmargin@=\dimen165
+\captionwidth=\dimen166
+\caption@tempdima=\dimen167
+\caption@indent=\dimen168
+\caption@parindent=\dimen169
+\caption@hangindent=\dimen170
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count271
+\c@continuedfloat=\count272
+)
+\c@subfigure=\count273
+\c@subtable=\count274
+) (C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip56
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen171
+))
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+LaTeX Info: Redefining \boldsymbol on input line 28.
+\pmbraise@=\dimen172
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count275
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count276
+\leftroot@=\count277
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count278
+\DOTSCASE@=\count279
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+\big@size=\dimen173
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count280
+\c@MaxMatrixCols=\count281
+\dotsspace@=\muskip16
+\c@parentequation=\count282
+\dspbrk@lvl=\count283
+\tag@help=\toks21
+\row@=\count284
+\column@=\count285
+\maxfields@=\count286
+\andhelp@=\toks22
+\eqnshift@=\dimen174
+\alignsep@=\dimen175
+\tagshift@=\dimen176
+\tagwidth@=\dimen177
+\totwidth@=\dimen178
+\lineht@=\dimen179
+\@envbody=\toks23
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count287
+\l_MT_multwidth_dim=\dimen180
+\origjot=\skip59
+\l_MT_shortvdotswithinadjustabove_dim=\dimen181
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen182
+\l_MT_above_intertext_sep=\dimen183
+\l_MT_below_intertext_sep=\dimen184
+\l_MT_above_shortintertext_sep=\dimen185
+\l_MT_below_shortintertext_sep=\dimen186
+\xmathstrut@box=\box58
+\xmathstrut@dim=\dimen187
+) (C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count288
+\float@exts=\toks25
+\float@box=\box59
+\@float@everytoks=\toks26
+\@floatcapt=\box60
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2021-06-05 v7.00l Hypertext links for LaTeX
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
+ty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen188
+\Hy@linkcounter=\count289
+\Hy@pagecounter=\count290
+ (C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2021-06-05 v7.00l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref-langp
+atches.def
+File: hyperref-langpatches.def 2021-06-05 v7.00l Hyperref: patches for babel la
+nguages
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count291
+ (C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2021-06-05 v7.00l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count292
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen189
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count293
+\Field@Width=\dimen190
+\Fld@charsize=\dimen191
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count294
+\c@Item=\count295
+\c@Hfootnote=\count296
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2021-06-05 v7.00l Hyperref driver for pdfTeX
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count297
+\c@bookmark@seq@number=\count298
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip60
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: always capitalise cross-reference names on input line 78
+25.
+Package cleveref Info: always capitalise cross-reference names on input line 78
+52.
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip61
+\enit@outerparindent=\dimen192
+\enit@toks=\toks27
+\enit@inbox=\box61
+\enit@count@id=\count299
+\enitdp@description=\count300
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/kantlipsum\kantlipsum.s
+ty (C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-06-01 L3 programming layer (loader) 
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count301
+\l__pdf_internal_box=\box62
+))
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2021-06-01 L3 Experimental document command parser
+)
+Package: kantlipsum 2019/07/23 v0.8 Generate text in Kantian style
+\l__kgl_start_int=\count302
+\l__kgl_end_int=\count303
+
+Package kantlipsum Info: The package provides paragraphs 1 to 164. Values
+(kantlipsum)             outside this range will be ignored.
+
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip62
+\bibsep=\skip63
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count304
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/algorithm2e\algorithm2e
+.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count305
+ (C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip64
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count306
+) (C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip65
+\skiplinenumber=\skip66
+\skiprule=\skip67
+\skiphlne=\skip68
+\skiptext=\skip69
+\skiplength=\skip70
+\algomargin=\skip71
+\skipalgocfslide=\skip72
+\algowidth=\dimen193
+\inoutsize=\dimen194
+\inoutindent=\dimen195
+\interspacetitleruled=\dimen196
+\interspacealgoruled=\dimen197
+\interspacetitleboxruled=\dimen198
+\algocf@ruledwidth=\skip73
+\algocf@inoutbox=\box63
+\algocf@inputbox=\box64
+\AlCapSkip=\skip74
+\AlCapHSkip=\skip75
+\algoskipindent=\skip76
+\algocf@nlbox=\box65
+\algocf@hangingbox=\box66
+\algocf@untilbox=\box67
+\algocf@skipuntil=\skip77
+\algocf@capbox=\box68
+\algocf@lcaptionbox=\skip78
+\algoheightruledefault=\skip79
+\algoheightrule=\skip80
+\algotitleheightruledefault=\skip81
+\algotitleheightrule=\skip82
+\c@algocfline=\count307
+\c@algocfproc=\count308
+\c@algocf=\count309
+\algocf@algoframe=\box69
+\algocf@algobox=\box70
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count310
+\lst@gtempboxa=\box71
+\lst@token=\toks28
+\lst@length=\count311
+\lst@currlwidth=\dimen199
+\lst@column=\count312
+\lst@pos=\count313
+\lst@lostspace=\dimen256
+\lst@width=\dimen257
+\lst@newlines=\count314
+\lst@lineno=\count315
+\lst@maxwidth=\dimen258
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count316
+\lst@skipnumbers=\count317
+\lst@framebox=\box72
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/minted\minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/fvextra\fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2021/10/15 v3.9 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count318
+\FV@InFile=\read2
+\FV@TabBox=\box73
+\c@FancyVerbLine=\count319
+\FV@StepNumber=\count320
+\FV@OutFile=\write3
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count321
+\output=\toks29
+\linenoprevgraf=\count322
+\linenumbersep=\dimen259
+\linenumberwidth=\dimen260
+\c@linenumber=\count323
+\c@pagewiselinenumber=\count324
+\c@LN@truepage=\count325
+\c@internallinenumber=\count326
+\c@internallinenumbers=\count327
+\quotelinenumbersep=\dimen261
+\bframerule=\dimen262
+\bframesep=\dimen263
+\bframebox=\box74
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count328
+\c@FV@TrueTabCounter=\count329
+\FV@TabBox@Group=\box75
+\FV@TmpLength=\skip83
+\c@FV@HighlightLinesStart=\count330
+\c@FV@HighlightLinesStop=\count331
+\FV@LoopCount=\count332
+\FV@NCharsBox=\box76
+\FV@BreakIndent=\dimen264
+\FV@BreakIndentNChars=\count333
+\FV@BreakSymbolSepLeft=\dimen265
+\FV@BreakSymbolSepLeftNChars=\count334
+\FV@BreakSymbolSepRight=\dimen266
+\FV@BreakSymbolSepRightNChars=\count335
+\FV@BreakSymbolIndentLeft=\dimen267
+\FV@BreakSymbolIndentLeftNChars=\count336
+\FV@BreakSymbolIndentRight=\dimen268
+\FV@BreakSymbolIndentRightNChars=\count337
+\c@FancyVerbLineBreakLast=\count338
+\FV@LineBox=\box77
+\FV@LineIndentBox=\box78
+\FV@LineWidth=\dimen269
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/ifplatform\ifplatform.s
+ty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfile.s
+ty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\integerpart=\count339
+\decimalpart=\count340
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+) (C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip84
+\fb@frw=\dimen270
+\fb@frh=\dimen271
+\FrameRule=\dimen272
+\FrameSep=\dimen273
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box79
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count341
+\c@minted@pygmentizecounter=\count342
+\@float@every@listing=\toks30
+\c@listing=\count343
+)
+runsystem(if not exist _minted-telco mkdir _minted-telco)...executed.
+
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
+\LTleft=\skip85
+\LTright=\skip86
+\LTpre=\skip87
+\LTpost=\skip88
+\LTchunksize=\count344
+\LTcapwidth=\dimen274
+\LT@head=\box80
+\LT@firsthead=\box81
+\LT@foot=\box82
+\LT@lastfoot=\box83
+\LT@gbox=\box84
+\LT@cols=\count345
+\LT@rows=\count346
+\c@LT@tables=\count347
+\c@LT@chunks=\count348
+\LT@p@ftn=\toks31
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 62.
+\c@theorem=\count349
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > te
+lco.aex <nul: /p x=^%~$PATH:i>> telco.aex)...executed.
+
+runsystem(del telco.aex)...executed.
+
+
+(telco.aux)
+\openout1 = `telco.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count350
+\scratchdimen=\dimen275
+\scratchbox=\box85
+\nofMPsegments=\count351
+\nofMParguments=\count352
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count353
+\MPscratchDim=\dimen276
+\MPnumerator=\count354
+\makeMPintoPDFobject=\count355
+\everyMPtoPDFconversion=\toks33
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 110.
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count356
+)
+LaTeX Info: Redefining \ref on input line 110.
+LaTeX Info: Redefining \pageref on input line 110.
+LaTeX Info: Redefining \nameref on input line 110.
+ (telco.out) (telco.out)
+\@outlinefile=\write5
+\openout5 = `telco.out'.
+
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+\c@lstlisting=\count357
+<figures//dibimbingid.png, id=59, 244.66406pt x 275.52937pt>
+File: figures//dibimbingid.png Graphic file (type png)
+<use figures//dibimbingid.png>
+Package pdftex.def Info: figures//dibimbingid.png  used on input line 114.
+(pdftex.def)             Requested size: 149.37958pt x 168.22821pt.
+
+[1
+
+{C:/Users/Ardni/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./figures//dibi
+mbingid.png>] (telco.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+
+(C:\Users\Ardni\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write6
+\openout6 = `telco.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.127 	\newpage
+                [2
+
+] (sections/introduction.tex [1]) (sections/eda.tex
+Underfull \hbox (badness 6792) in paragraph at lines 28--29
+\OT1/cmr/m/n/12 Mailed check, Bank trans-fer-/au-to-matic, Credit
+ []
+
+[2]
+<figures/miss_values.jpg, id=108, 249.93375pt x 231.86626pt>
+File: figures/miss_values.jpg Graphic file (type jpg)
+<use figures/miss_values.jpg>
+Package pdftex.def Info: figures/miss_values.jpg  used on input line 41.
+(pdftex.def)             Requested size: 256.07741pt x 237.59013pt.
+ [3 <./figures/miss_values.jpg>]
+<figures/outlier1.jpg, id=115, 712.6625pt x 397.0835pt>
+File: figures/outlier1.jpg Graphic file (type jpg)
+<use figures/outlier1.jpg>
+Package pdftex.def Info: figures/outlier1.jpg  used on input line 51.
+(pdftex.def)             Requested size: 426.79135pt x 237.7975pt.
+) (sections/exploratory.tex
+<figures/churn_univariate.jpg, id=116, 286.06876pt x 291.68974pt>
+File: figures/churn_univariate.jpg Graphic file (type jpg)
+<use figures/churn_univariate.jpg>
+Package pdftex.def Info: figures/churn_univariate.jpg  used on input line 6.
+(pdftex.def)             Requested size: 213.39568pt x 217.59175pt.
+<figures/customer_demo.jpg, id=118, 620.51825pt x 448.27475pt>
+File: figures/customer_demo.jpg Graphic file (type jpg)
+<use figures/customer_demo.jpg>
+Package pdftex.def Info: figures/customer_demo.jpg  used on input line 14.
+(pdftex.def)             Requested size: 426.79135pt x 308.32494pt.
+ [4 <./figures/outlier1.jpg>] [5 <./figures/churn_univariate.jpg> <./figures/cu
+stomer_demo.jpg>]
+<figures/customer_service.jpg, id=132, 732.7375pt x 721.897pt>
+File: figures/customer_service.jpg Graphic file (type jpg)
+<use figures/customer_service.jpg>
+Package pdftex.def Info: figures/customer_service.jpg  used on input line 23.
+(pdftex.def)             Requested size: 426.79135pt x 420.48503pt.
+<figures/customer_acc.jpg, id=134, 620.51825pt x 470.75874pt>
+File: figures/customer_acc.jpg Graphic file (type jpg)
+<use figures/customer_acc.jpg>
+Package pdftex.def Info: figures/customer_acc.jpg  used on input line 32.
+(pdftex.def)             Requested size: 426.79135pt x 323.7895pt.
+[6 <./figures/customer_service.jpg>]
+<figures/numeric_univ.jpg, id=141, 621.522pt x 508.49976pt>
+File: figures/numeric_univ.jpg Graphic file (type jpg)
+<use figures/numeric_univ.jpg>
+Package pdftex.def Info: figures/numeric_univ.jpg  used on input line 41.
+(pdftex.def)             Requested size: 426.79135pt x 349.18924pt.
+ [7 <./figures/customer_acc.jpg>] [8 <./figures/numeric_univ.jpg>]
+<figures/spearman_cor.jpg, id=156, 1184.0235pt x 578.76225pt>
+File: figures/spearman_cor.jpg Graphic file (type jpg)
+<use figures/spearman_cor.jpg>
+Package pdftex.def Info: figures/spearman_cor.jpg  used on input line 53.
+(pdftex.def)             Requested size: 711.3189pt x 347.70158pt.
+
+Overfull \hbox (36.98857pt too wide) in paragraph at lines 53--54
+ [][] 
+ []
+
+[9
+
+ <./figures/spearman_cor.jpg>]
+<figures/customer_demo_bi.jpg, id=161, 620.51825pt x 448.27475pt>
+File: figures/customer_demo_bi.jpg Graphic file (type jpg)
+<use figures/customer_demo_bi.jpg>
+Package pdftex.def Info: figures/customer_demo_bi.jpg  used on input line 61.
+(pdftex.def)             Requested size: 341.43437pt x 246.66132pt.
+<figures/customer_acc_bi.jpg, id=162, 620.51825pt x 470.75874pt>
+File: figures/customer_acc_bi.jpg Graphic file (type jpg)
+<use figures/customer_acc_bi.jpg>
+Package pdftex.def Info: figures/customer_acc_bi.jpg  used on input line 68.
+(pdftex.def)             Requested size: 341.43437pt x 259.03304pt.
+<figures/customer_service_bi.jpg, id=163, 732.7375pt x 721.897pt>
+File: figures/customer_service_bi.jpg Graphic file (type jpg)
+<use figures/customer_service_bi.jpg>
+Package pdftex.def Info: figures/customer_service_bi.jpg  used on input line 75
+.
+(pdftex.def)             Requested size: 426.79135pt x 420.48503pt.
+ [10
+
+ <./figures/customer_demo_bi.jpg> <./figures/customer_acc_bi.jpg>] [11 <./figur
+es/customer_service_bi.jpg>]
+<figures/num_var_bi.jpg, id=180, 621.522pt x 508.49976pt>
+File: figures/num_var_bi.jpg Graphic file (type jpg)
+<use figures/num_var_bi.jpg>
+Package pdftex.def Info: figures/num_var_bi.jpg  used on input line 88.
+(pdftex.def)             Requested size: 426.79135pt x 349.18924pt.
+<figures/binning.jpg, id=182, 745.38475pt x 364.36125pt>
+File: figures/binning.jpg Graphic file (type jpg)
+<use figures/binning.jpg>
+Package pdftex.def Info: figures/binning.jpg  used on input line 95.
+(pdftex.def)             Requested size: 426.79135pt x 208.62766pt.
+ [12 <./figures/num_var_bi.jpg>]
+<figures/justifi_monthly.jpg, id=190, 526.16576pt x 343.684pt>
+File: figures/justifi_monthly.jpg Graphic file (type jpg)
+<use figures/justifi_monthly.jpg>
+Package pdftex.def Info: figures/justifi_monthly.jpg  used on input line 105.
+(pdftex.def)             Requested size: 298.75264pt x 195.14151pt.
+<figures/justify_sc.jpg, id=194, 692.5875pt x 517.935pt>
+File: figures/justify_sc.jpg Graphic file (type jpg)
+<use figures/justify_sc.jpg>
+Package pdftex.def Info: figures/justify_sc.jpg  used on input line 114.
+(pdftex.def)             Requested size: 384.1096pt x 287.25183pt.
+ [13 <./figures/binning.jpg>] [14 <./figures/justifi_monthly.jpg> <./figures/ju
+stify_sc.jpg>]
+<figures/percentage_streaming.jpg, id=205, 562.2606pt x 338.9463pt>
+File: figures/percentage_streaming.jpg Graphic file (type jpg)
+<use figures/percentage_streaming.jpg>
+Package pdftex.def Info: figures/percentage_streaming.jpg  used on input line 1
+23.
+(pdftex.def)             Requested size: 341.43437pt x 205.826pt.
+<figures/streaming_dsl_fiber.png, id=207, 963.6pt x 335.75438pt>
+File: figures/streaming_dsl_fiber.png Graphic file (type png)
+<use figures/streaming_dsl_fiber.png>
+Package pdftex.def Info: figures/streaming_dsl_fiber.png  used on input line 13
+2.
+(pdftex.def)             Requested size: 426.79135pt x 148.70578pt.
+<figures/tenurechurn.jpg, id=210, 532.19627pt x 343.49931pt>
+File: figures/tenurechurn.jpg Graphic file (type jpg)
+<use figures/tenurechurn.jpg>
+Package pdftex.def Info: figures/tenurechurn.jpg  used on input line 141.
+(pdftex.def)             Requested size: 384.1096pt x 247.92206pt.
+ [15 <./figures/percentage_streaming.jpg> <./figures/streaming_dsl_fiber.png>])
+ (sections/conclusion.tex [16 <./figures/tenurechurn.jpg>]) [17] (telco.bbl
+Underfull \hbox (badness 4242) in paragraph at lines 15--19
+[]\OT1/cmr/m/n/12 IBM.  Telco cus-tomer churn.  [][]$\OT1/cmtt/m/n/12 https : /
+ / www . kaggle . com / blastchar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--26
+\OT1/cmtt/m/n/12 research . google . com / drive / 1iLpyBlI6tkHTbQYsEeiLglVIdbU
+q2onV ? usp =
+ []
+
+) [18] (telco.aux)
+Package rerunfilecheck Info: File `telco.out' has not changed.
+(rerunfilecheck)             Checksum: 982A7E42FD60EC5E0DC0DF6C44B2B714;1876.
+ ) 
+Here is how much of TeX's memory you used:
+ 20438 strings out of 478864
+ 345849 string characters out of 2848660
+ 896900 words of memory out of 3000000
+ 37965 multiletter control sequences out of 15000+600000
+ 414116 words of font info for 65 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 72i,9n,80p,1499b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Ardni\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1200.pk><C:/Users/Ardni/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb><C:/Users/Ardni/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmcsc10.pfb><C:/Users/Ardni/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ardni/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Ardni/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Ardni/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on telco.pdf (20 pages, 13953590 bytes).
+PDF statistics:
+ 288 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
+

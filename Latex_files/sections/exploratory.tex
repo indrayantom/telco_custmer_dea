@@ -1,0 +1,146 @@
+\section{Exploratory Data Analysis}
+\subsection{Univariate Analysis}
+
+\begin{figure}[tbph]
+	\centering
+	\includegraphics[width=0.5\linewidth]{figures/churn_univariate}
+	\caption{Univariate analysis of Churn variable.}
+	\label{fig:churn_univariate}
+\end{figure}
+
+In this univariate analysis, categorical variables will be viewed using a bar chart, whereas numerical variables will use the histogram. First, the analysis will be done for the target variables, Churn. From Figure \ref{fig:churn_univariate}, it can be seen that there is an imbalance for the target variable since it contains 5163 rows of No entries (73.42\%) and 1869 rows of Yes entries (26.58\%), indicates that the corresponding company has 26.57\% churn rate within the last month.
+\begin{figure}[tbph]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/customer_demo}
+	\caption{Univariate analysis of customer demographic attributes.}
+	\label{fig:customer_demo}
+\end{figure}
+
+Next is the customer demographic attributes that consist of gender, Senior Citizen, Partner and Dependents. To analyze each variable uniformly, the binary integer value of Senior Citizen variable (1,0) will be converted into Yes or No beforehand.  For Figure \ref{fig:customer_demo} one can find that within the sample, the amount of each gender is approximately equal. The same applies to the Partner variable as the number of customers with or without a partner is also roughly similar. The distribution of imbalances can be seen by other features that around 16\% of customers are considered elderly and 30\% of customers have dependents.
+
+\begin{figure}[tbph]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/customer_service}
+	\caption{Univariate analysis of customer service attributes.}
+	\label{fig:customer_service}
+\end{figure}
+
+There are 9 variables that provide information about the services the customer signs up for. Figure \ref{fig:customer_service} shows that approximately 90\% of customers subscribe to telephone service and 42\% also subscribe to multi-line service as well. It also shows that the majority of customers also subscribe to an Internet service with 44\% of customers prefer the type of fiber optic service and 34\% choose DSL. It is apparent that most customers who use the Internet service prefer not to use some additional Internet services such as OnlineSecurity, OnlineBackup, DeviceProtection and TechSupport. However, the same thing does not apply to the streaming service since the number of customers using or not using the service is similar. This also means that the streaming service is the most popular among the additional internet services.
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/customer_acc}
+	\caption{Univariate analysis of customer account attributes.}
+	\label{fig:customer_acc}
+\end{figure}
+
+The last categorical variables such as Contract, PaperlessBilling, and Payment method give informations about customer account and transaction method. From Figure \ref{fig:customer_acc}, it is obvious that most customers prefer a month-to-month contract rather than a yearly contract. Moreover, for the transaction method, most customers opting for paperless billing and using electronic check.
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/numeric_univ}
+	\caption{Univariate analysis of numeric variables.}
+	\label{fig:numeric_univ}
+\end{figure}
+
+For numeric variables, univariate analysis will be conducted using the histogram. In the preceding section, it is already known that there are no outliers in the dataset. However, the distribution of each variable is not yet known and needs to be visualized. From Figure \ref{fig:numeric_univ}, the tenure histogram shows that the distribution of its values is considered bi-modal (2 peaks), indicates that the dataset is concentrated around 2 clusters. One of them is customers with less than 10 months tenure and the last is loyal customers, signed up for 65 months or more. From another point of view, one can also see that the company has indeed been able to attract many customers in the last 10 months. The bimodal distribution is also visible in the MonthlyCharges distribution where the data set is focused around two groups, i.e customers who purchased the basic service (cheapest price) with the amount of 20 dollars only and other is the customer who purchased multi-services with the amount of approximately 80 dollars per month. Apart from its positively skewed form, it is difficult to interpret any useful information from the TotalCharges histogram since TotalCharges is roughly computed from MonthlyCharges multiplied by tenure. Since univariate analysis does not provide enough information to answer the problems, bivariate analysis will be conducted in the next section with great focus to the target variable, Churn.
+
+\subsection{Bivariate Analysis}
+In this section, the analysis will begin by calculating the correlation of each variable to another with the Spearman method. Before calculating the correlation matrix, the categorical variable within the dataset first need to be encoded. From Figure \ref{fig:spearmancor}, the result shows that tenure and MonthlyCharges are highly correlated to TotalCharges, which is reasonable since TotalCharges is roughly similar to MonthlyCharges multiplied by tenure. Other interesting result is encoded variable StreamingTV\_Yes has 0.53 correlation to StreamingMovies\_Yes, which indicates the customer who have TV streaming service is likely to have movies streaming service also. One also can see from the heatmap that services with strongest correlation to MonthlyCharges are fiber optic with 0.8, no internet service with -0.71 and streaming service with 0.64, describing those services do have strong influences to the MonthlyCharges value. Figure \ref{fig:spearmancor} also shows that Churn does not have quite strong correlation to any variable. The strongest correlations for the target variable Churn are -0.37 by tenure, 0.31 by fiber optic internet service, and 0.3 by electronic check.
+\begin{landscape}
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=25cm]{figures/spearman_cor}
+	\caption{Spearman Correlation Heatmap for the encoded dataset.}
+	\label{fig:spearmancor}
+\end{figure}
+\end{landscape}
+ To obtain clearer picture of those correlations, the relationship between each variable and Churn will be visualized using stacked bar chart.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{figures/customer_demo_bi}
+	\caption{Bivariate Analysis of Customer Demographic Attributes and Churn.}
+	\label{fig:customer_demo_bi}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{figures/customer_acc_bi}
+	\caption{Bivariate Analysis of Customer Account Attributes and Churn.}
+	\label{fig:customer_acc_bi}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/customer_service_bi}
+	\caption{Bivariate Analysis of Customer Service Attributes and Churn.}
+	\label{fig:customer_service_bi}
+\end{figure}
+ From the stacked bar charts of customer demographic attributes, customer account attributes, and customer service attributes (Figure \ref{fig:customer_demo_bi}, \ref{fig:customer_acc_bi}, \ref{fig:customer_service_bi}) one can notice that :
+\begin{itemize}
+	\item Both sexes, female and male have the same likelihood to churn, meaning that this variable don't give any valuable pieces of information. Same thing does not apply for Partner and Dependents since bar charts show that customer who has partner or dependents is less likely to churn. Bar chart also shows that senior customer has bigger chance to churn than younger one.
+	\item Figure \ref{fig:customer_acc_bi} shows that customer with monthly subscription has greater chance to churn than customer with yearly subscription. The bar charts also show customers with paperless billing enabled and has electronic check for payment method are more likely to churn.
+	\item From customer service attributes, it can be seen that roughly 40\% of customers who sign up for the fiber optic service choose to churn, meanwhile more than 90\% of customers who don't sign up for the internet service choose to remain. Moreover, it seems that customer who does not subscribe for additional internet services such as OnlineSecurity, OnlineBackup, DeviceProtection, and TechSupport has greater chance to churn than customer who subscribes. Same thing does not apply for both streaming services, since the churn probability of customer with or without streaming services enabled is roughly equal by 30\%. This value is considered high compared to OnlineSecurity, OnlineBackup and so on, indicating that numerous customers might less satisfied with the quality of the streaming services.
+\end{itemize}
+
+\begin{figure}[!hb]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/num_var_bi}
+	\caption{Bivariate Analysis of Numerical Variables.}
+	\label{fig:num_var_bi}
+\end{figure}
+The bivariate analysis will also be conducted for the numerical variables such as tenure, MonthlyCharges, and TotalCharges. Figure \ref{fig:num_var_bi} shows that most customers who churned within the last month only subscribed for less than 5 months. This is definitely a loss as the company has actually managed to attract a lot of new customers in the last few months. From MonthlyCharges histogram, it appears that the majority of lost customers are charged by approximately 70-110 dollars per month. To urge more detail information, these 2 variables will be binned by dividing their values into 6 quantiles with roughly similar amount. 
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/binning}
+	\caption{Discretization of MonthlyCharges and tenure.}
+	\label{fig:binning}
+\end{figure}
+Figure \ref{fig:binning} appears an instinctive result as the churn likelihood gets smaller as the membership time gets longer. It also tells that more than 50\% of customers who only subscribed less than 4 months prefer to churn (mostly even churn in their first month). From MonthlyCharges binning, it can be seen that the premium customers who are billed more than 70 dollars per month are more likely to churn compared to other customers with less bill. From the business perspective, it is surely more beneficial for the company to have a great focus improving on the premium services since those services have more lost customers and donate more month-to-month income for the company. Another interesting result is the customer who only subscribes for basic service seems quite satistied with the service quality and less likely to churn.
+
+\subsection{Summary and Justification}
+From bivariate analysis, one can figure several categories that may represent who the lost customer is. However, the question of which factors is the main culprit remains unanswered. Consider that it is impossible for customers who use electronic check for the payment method decide to churn without any reasons. In this section, that question will be tried to solve.
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/justifi_monthly}
+	\caption{Jitter plot of InternetService vs MonthlyCharges vs Churn.}
+	\label{fig:justify_monthly}
+\end{figure}
+
+Figure \ref{fig:justify_monthly} depicts why many customers who pay more than 70 dollars per month choose to churn. The reason is due to the internet service they bought.  As shown in Figure \ref{fig:justify_monthly}, it is evident that customers who churn with MonthlyCharges ranging from 70 to 120 dollars are usually customers who use FiberOptic service. From the previous section, one of the most important insights is Fiber Optic service indeed has higher rate of churn. That's also why SeniorCitizen, ElectronicCheck, and PaperlessBilling have higher churn rates than others. Figure \ref{fig:justify_sc} shows that MonthlyCharges distribution for SeniorCitizen Yes, PaperlessBilling Yes and Electronic check are clustered around the churn-critical area, i.e 60-90 dollars per month. 
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\linewidth]{figures/justify_sc}
+	\caption{MonthlyCharges distribution for PaperlessBilling, SeniorCitizen and PaymentMethod}
+	\label{fig:justify_sc}
+\end{figure}
+
+Another key takeaways from the preceding section is that many customers who join up for the streaming service choose to churn (more than other additional services such as OnlineSecurity, OnlineBackup, etc). Because the correlation matrix indicates that customers who use TV streaming services are more likely to use movies streaming services as well, these two variables will be combined to form a new variable, Streaming.
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.8\linewidth]{figures/percentage_streaming}
+	\caption{Percentage of streaming service enabled.}
+	\label{fig:percentage_streaming}
+\end{figure}
+
+ Figure \ref{fig:percentage_streaming} shows that the vast majority of customers who use internet also sign up for the streaming service. It can be seen that roughly 70\% of Fiber optic users  subscribe for the streaming service. However, two important insights obtained from the previous section are both of these variables contribute to the churn decision. So in which variable does the main problem exist? Does it exist in the streaming service or the kind of the internet service itself, i.e Fiber optic?
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/streaming_dsl_fiber}
+	\caption{Percentage of lost customer in DSL and Fiber Optic.}
+	\label{fig:streaming_dsl_fiber}
+\end{figure}
+
+Figure \ref{fig:streaming_dsl_fiber} appears as an answer to those questions. From Figure \ref{fig:streaming_dsl_fiber} it is evident that the customers who do not subscribe for any Streaming services actually have slightly higher probability to churn in both DSL and Fiber optic services. Moreover, the Churn probability for Fiber optic users almost two times higher than DSL users. Both of these findings indicate that the major issue is the Fiber Optic service itself.
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\linewidth]{figures/tenurechurn}
+	\caption{Scatter plot of tenure,MonthlyCharges, Churn (Yes and No), and Contract.}
+	\label{fig:tenure_churn}
+\end{figure}
+In addition to InternetService, tenure is another significant factor in this dataset. Figure \ref{fig:tenure_churn} shows that practically almost every value of MonthlyCharges has customers who churn in their first 6 months. This suggests that the majority of new telecom customers may have negative beginning experiences. Another finding is as tenure increases the contract also increases from monthly becomes yearly. That's why in the small tenure period, mostly the contracts are monthly and customers with that contract are more likely to churn than those who have yearly contract.  This finding is actually quite reasonable because monthly contract customers are frequently new and still not satisfied enough with the service quality and unsure whether they will remain loyal to the company. That's why one also can see that as the period of contract increases the churn probability decreases.
+ 

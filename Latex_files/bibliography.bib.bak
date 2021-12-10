@@ -1,0 +1,18 @@
+@misc{bain,
+	author = {Reichheld, Ferd},
+	title = {Prescription of cutting costs},
+	howpublished = "\url{http://www2.bain.com/Images/BB_Prescription_cutting_costs.pdf}",
+	note = "(Accessed: 01-Dec-2021)"
+}
+@misc{kaggle,
+	author = {IBM},
+	title = {Telco Customer Churn},
+	howpublished = "\url{https://www.kaggle.com/blastchar/telco-customer-churn}",
+	note = "(Accessed: 01-Dec-2021)"
+}
+@misc{indra,
+	author = {Yanto, Indra},
+	title = {Telco Customer Churn Data Exploratory Analysis},
+	howpublished = "\url{https://colab.research.google.com/drive/1iLpyBlI6tkHTbQYsEeiLglVIdbUq2onV?usp=sharing}",
+	note = "(Accessed: 01-Dec-2021)"
+}

@@ -1,0 +1,161 @@
+%--------------- Personalize your document here ---------------
+
+\author{Indra Yanto Simanihuruk} % Enter your name
+%\newcommand{\studentID}{} % enter your student ID
+\newcommand{\supervisorone}{Louis Owen} % Enter your supervisor's name
+\newcommand{\supervisortwo}{}% Leave it empty or enter your second supervisor's name 
+\newcommand{\department}{DATA SCIENCE BOOTCAMP BATCH 7}
+\newcommand{\exam}{HOMEWORK DAY 16}
+
+\title{Telco Customer Churn Analysis} %Enter the title of your report 
+\date{December 2021} % insert a specific date	
+
+%--------------------------------------------------------------
+
+% This document was adapted from the
+% TEMPLATE FOR PHYS250 WORKSHEET created by Alastair McLean
+% URL: https://www.overleaf.com/latex/templates/phys250-worksheet-template/xxftvfhmwqdt
+
+% Jefferson Silveira
+% Email: 19jdls1@queensu.ca
+% Last update: 09-Jun-2021
+% If you have any questions or concerns, do not hesitate to contact me.
+%--------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=30mm,top=30mm,right=30mm,bottom=30mm]{geometry}
+\usepackage{etoolbox} %required for cover page
+\usepackage{booktabs}
+\usepackage{pdflscape}
+\usepackage[usestackEOL]{stackengine}
+\usepackage[utf8]{inputenc}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[capitalise]{cleveref}
+\usepackage{enumitem,kantlipsum}
+\usepackage{amssymb}
+\usepackage[square,numbers,sort]{natbib}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{listings}
+\usepackage{minted}
+\usepackage{longtable}
+\usemintedstyle{emacs}
+
+\renewcommand{\listingscaption}{Algorithm}
+\renewcommand{\listoflistingscaption}{List of Algorithms}
+
+
+\bibliographystyle{unsrtnat}
+
+\hypersetup{
+	colorlinks,
+	linkcolor={black},
+	citecolor={blue!50!black},
+	urlcolor={blue!80!black}
+}
+
+\linespread{1}
+
+\newtheorem{theorem}{Theorem}[section]
+\graphicspath{{figures/}}	
+
+%----------------------------------TITLE PAGE -----------------------------------
+\makeatletter
+\def\maketitle{
+	\begin{center}\leavevmode
+		\normalfont
+		\includegraphics[width=0.35\columnwidth]{dibimbingid}
+		\vskip 0.5cm   
+		\textsc{\large \department}\\
+		\vskip 1.5cm
+		\rule{\linewidth}{0.2 mm} \\
+		{\large \exam}\\[1 cm]
+		{\huge \bfseries \@title \par}
+		\vspace{1cm}
+		\rule{\linewidth}{0.2 mm} \\[1.5 cm]
+		
+		\begin{minipage}[t]{0.45\textwidth}
+			\begin{flushleft} \large
+				\emph{Author:}\\
+				\@author\\
+				%Student ID: \studentID
+			\end{flushleft}
+		\end{minipage}
+		\begin{minipage}[t]{0.45\textwidth}
+			\begin{flushright} \large
+				\ifdefempty{\supervisortwo}{\emph{Supervisor:\\}}{\emph{Supervisors:\\}}
+				\supervisorone\\
+				\ifdefempty{\supervisortwo}{}{\supervisortwo\\}
+			\end{flushright}
+		\end{minipage}
+		\vfill
+		{\Large \@date\par}
+	\end{center}
+	%\vfill
+	%\null
+	\cleardoublepage
+}
+\makeatother
+
+
+%-------------------------------- ENDTITLE PAGE ----------------------------------
+
+\begin{document}
+	
+	\pagenumbering{gobble}% Remove page numbers (and reset to 1)
+	
+	\maketitle
+	
+%	\begin{center}
+%	\phantomsection
+%	\pagenumbering{roman}
+%	\addcontentsline{toc}{section}{Executive Summary}
+%	\large{\textbf{Executive Summary}}
+%	\end{center}
+%sdasdas sdsa 
+%	\newpage
+	
+	\tableofcontents
+	\addcontentsline{toc}{section}{Contents}
+	\newpage
+	%\listoffigures
+	%\newpage
+	%\listoftables
+	%\newpage
+	%\listofalgorithms % List of algorithms in pseudocode format
+	%\newpage
+	%\listoflistings % List of algorithms in code format
+	%\newpage
+	
+	
+	% Arabic page numbers (and reset to 1)
+	\pagenumbering{arabic}
+	\setcounter{page}{1}
+	% This is how you can organize your document
+	\input{sections/introduction}
+	\input{sections/eda}
+	\input{sections/exploratory}
+	\input{sections/conclusion}
+	
+	
+	
+	
+	%If you came here because you want your references in a new page, uncomment the following line
+	
+	%\clearpage % If you want the references in a separate page
+	\newpage
+	\bibliography{bibliography}
+	\addcontentsline{toc}{section}{References}
+	
+	\clearpage % If you want the appendix in a separate page
+%	\appendix
+%	\input{sections/appendix}
+	
+\end{document}
