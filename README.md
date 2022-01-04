@@ -1,4 +1,4 @@
-# ✨ Telco Customer Churn : Data Exploratory Analysis ✨ 
+# ✨ Telco Customer Churn : Exploratory Data Analysis ✨ 
 This work contains exploratory data analysis of Telco Customer Churn dataset, downloaded from Kaggle. The goal of this investigation is to uncover and provide information that will be useful to related businesses. This project is mainly done using Python and Google Collab. The documentation, on the other hand, was written in LaTeX.
 
 ![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
