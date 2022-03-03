@@ -5,7 +5,7 @@ This work contains exploratory data analysis of Telco Customer Churn dataset, do
 ![colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)
 ![latex](https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=LaTeX&logoColor=white)
 
-Just in case you didn't know, the telco analysis indra.html file contains both the codes and the explanation. In addition, the professional writing of the analysis is also available in a.pdf file. You also can view or download the Google Collab file [here](https://colab.research.google.com/drive/1iLpyBlI6tkHTbQYsEeiLglVIdbUq2onV?usp=sharing) . Feel free to download and clone this repo 😃😉.
+Just in case you didn't know, the telco analysis indra.html file contains both the codes and the explanation. In addition, the professional writing of the analysis is also available in a.pdf file. You also can view the docs here [here](https://indrayantom.github.io/telco_custmer_dea/) . Feel free to download and clone this repo 😃😉.
 
 ## Objectives 
 The customer base dataset used in this work is made available by IBM and downloaded from [Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn) . It is related to an anonymous telecom company and contains 7043 customers data with 21 attributes where each row represents a customer and each column contains customer’s attributes.
